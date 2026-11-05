@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 430" role="img" aria-label="Φορητά φωτιστικά LED">
+  <defs>
+    <linearGradient id="glowg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffed5"/><stop offset=".54" stop-color="#ffe698"/><stop offset="1" stop-color="#f6b348"/></linearGradient>
+    <filter id="softshadow" x="-70%" y="-70%" width="240%" height="240%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-opacity=".18"/></filter>
+  </defs>
+  <ellipse cx="308" cy="346" rx="220" ry="20" fill="#b9c4b6" opacity=".28"/>
+  <g transform="translate(55 115)" filter="url(#softshadow)">
+    <path d="M30 75C30 5 120 0 135 -24" fill="none" stroke="#667568" stroke-width="5"/>
+    <rect x="73" y="30" width="135" height="133" rx="20" fill="#edf0e5" stroke="#b0bdac" stroke-width="5"/>
+    <rect x="85" y="42" width="111" height="109" rx="15" fill="url(#glowg)"/>
+  </g>
+  <g transform="translate(230 75)" filter="url(#softshadow)">
+    <path d="M80 30C100 -8 120 -5 160 -17" fill="none" stroke="#667568" stroke-width="5"/>
+    <rect x="40" y="25" width="135" height="133" rx="20" fill="#edf0e5" stroke="#b0bdac" stroke-width="5"/>
+    <rect x="52" y="37" width="111" height="109" rx="15" fill="url(#glowg)"/>
+  </g>
+  <g transform="translate(405 170) scale(.76)" filter="url(#softshadow)">
+    <rect x="10" y="10" width="135" height="133" rx="20" fill="#edf0e5" stroke="#b0bdac" stroke-width="5"/>
+    <rect x="22" y="22" width="111" height="109" rx="15" fill="url(#glowg)"/>
+  </g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 430" role="img" aria-label="Ηλιακό πάνελ">
+  <defs>
+    <linearGradient id="panelg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#243a49"/><stop offset="1" stop-color="#0a1620"/></linearGradient>
+    <filter id="softshadow" x="-70%" y="-70%" width="240%" height="240%"><feDropShadow dx="0" dy="12" stdDeviation="10" flood-opacity=".18"/></filter>
+  </defs>
+  <ellipse cx="296" cy="357" rx="198" ry="22" fill="#b9c4b6" opacity=".27"/>
+  <g transform="translate(112 46) rotate(-6 190 160)" filter="url(#softshadow)">
+    <rect x="0" y="0" width="374" height="312" rx="13" fill="#293731" stroke="#687b6b" stroke-width="11"/>
+    <rect x="14" y="15" width="345" height="282" rx="5" fill="url(#panelg)"/>
+    <path d="M84 15V297 M154 15V297 M224 15V297 M294 15V297 M14 85H359 M14 155H359 M14 225H359" stroke="#8ba5b3" stroke-width="3" opacity=".75"/>
+    <path d="M15 16L140 16 15 147Z" fill="#bfdcea" opacity=".13"/>
+    <rect x="170" y="304" width="37" height="8" rx="3" fill="#98a99b"/>
+  </g>
+</svg>
